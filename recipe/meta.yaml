@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ECOSolveR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ECOSolveR/ECOSolveR_{{ version }}.tar.gz
-  sha256: 23610f576f732194ff94fd28e2d371ce2e2a6a6acd315d2eb6d2de6a6901d67d
+  sha256: 4c49b9cf54ea3bf0ac309229b4fc02d832c29de56a263b6d2a454e03976ec547
 
 build:
   number: 0
